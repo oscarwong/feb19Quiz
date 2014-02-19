@@ -37,6 +37,7 @@ namespace WorkerRole1
                 string numbers = peekedMessage.AsString;
                 char[] delimiterChars = { ' ' };
                 string[] nums = numbers.Split(delimiterChars);
+                int sum = 
                 Trace.TraceInformation("Working", "Information");
             }
         }
